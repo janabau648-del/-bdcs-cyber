@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDCS OFFICIAL | Cyber Security Hub</title>
+    <style>
+        /* সাইবার/ডার্ক গ্রিন থিম স্টাইল */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #030804;
+            color: #00ff66;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            background-color: #071209;
+            border: 2px solid #00ff66;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 102, 0.25);
+        }
+
+        /* লোগো ও হেডার সেকশন */
+        .header {
+            text-align: center;
+            border-bottom: 1px dashed #00ff66;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 2px solid #00ff66;
+            box-shadow: 0 0 12px #00ff66;
+            object-fit: cover;
+        }
+
+        .team-title {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+            text-shadow: 0 0 8px #00ff66;
+        }
+
+        .owner-title {
+            color: #00ff66;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 10px;
+            color: #00cc52;
+            opacity: 0.9;
+        }
+
+        /* টার্মিনাল স্ট্যাটাস বক্স */
+        .status-box {
+            border: 1px solid #00ff66;
+            background: #021a0a;
+            padding: 10px;
+            font-size: 11px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            line-height: 1.6;
+        }
+
+        /* কার্ড ও বাটন লেআউট */
+        .section-box {
+            border: 1px solid #00ff66;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+            background: rgba(0, 255, 102, 0.03);
+        }
+
+        .section-title {
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px solid #00ff66;
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .btn {
+            background-color: #000000;
+            color: #00ff66;
+            border: 1px solid #00ff66;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            display: block;
+        }
+
+        .btn:hover {
+            background-color: #00ff66;
+            color: #000000;
+            box-shadow: 0 0 10px #00ff66;
+        }
+
+        /* টেলিগ্রাম ফ্লোটিং বাটন */
+        .telegram-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #0088cc;
+            color: #ffffff;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 0 12px rgba(0, 136, 204, 0.8);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 10px;
+            color: #00aa44;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- হেডার: লোগো, অনার আইডি এবং টিমের নাম -->
+        <div class="header">
+            <img src="https://i.ibb.co/d434cfvW/20260811-012231.png" alt="BDCS Logo" class="logo">
+            <h1 class="team-title">𝐁.𝐃.𝐂.𝐒 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋</h1>
+            <div class="owner-title">OWNER: 𝐁𝐃𝐂𝐒 𝐄𝐗𝐏𝐄𝐑𝐓 𝐇𝐑𝐈𝐃𝐎𝐘</div>
+            <p class="subtitle">[ CYBER_SECURITY_REPORTING_HUB_V1.0 ]</p>
+        </div>
+
+        <!-- সিস্টেম স্ট্যাটাস -->
+        <div class="status-box">
+            > INITIATING DASHBOARD...<br>
+            > SYSTEM ACCESS: GRANTED<br>
+            > LIVE AGENTS: ONLINE<br>
+            > SIGNAL: ENCRYPTED<br>
+            ------------------------------------<br>
+            > ALL REPORTING LINKS ACTIVE.
+        </div>
+
+        <!-- ১. গ্লোবাল সিকিউরিটি রিপোর্ট -->
+        <div class="section-box">
+            <h2 class="section-title">🌐 GLOBAL SECURITY REPORTS</h2>
+            <div class="btn-list">
+                <a href="https://google.com" target="_blank" class="btn">GOOGLE PHISHING REPORT</a>
+                <a href="https://virustotal.com" target="_blank" class="btn">VIRUSTOTAL SCANNER</a>
+                <a href="#" class="btn">NETCRAFT MALICIOUS SITE</a>
+            </div>
+        </div>
+
+        <!-- ২. ফেসবুক রিপোর্ট সেকশন -->
+        <div class="section-box">
+            <h2 class="section-title">📘 FACEBOOK MASTER REPORTS</h2>
+            <div class="btn-list">
+                <a href="#" class="btn">ACCOUNT / PROFILE REPORT</a>
+                <a href="#" class="btn">COPYRIGHT INFRINGEMENT</a>
+                <a href="#" class="btn">COMPROMISED ACCOUNT</a>
+                <a href="#" class="btn">TRADEMARK VIOLATION</a>
+            </div>
+        </div>
+
+        <!-- ৩. ইনস্টাগ্রাম ও মেটা -->
+        <div class="section-box">
+            <h2 class="section-title">📷 INSTAGRAM & META</h2>
+            <div class="btn-list">
+                <a href="#" class="btn">IMPERSONATION REPORT</a>
+                <a href="#" class="btn">HARASSMENT & ABUSE</a>
+            </div>
+        </div>
+
+        <!-- ৪. অফিশিয়াল হেল্প সেন্টার -->
+        <div class="section-box">
+            <h2 class="section-title">💬 OFFICIAL HELP CENTERS</h2>
+            <div class="btn-list">
+                <a href="#" class="btn">BKASH LIVE CHAT</a>
+                <a href="#" class="btn">NAGAD CONTACT CENTER</a>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 BDCS OFFICIAL CYBER SECURITY
+        </footer>
+    </div>
+
+    <!-- টেলিগ্রাম লিংক বসানোর জন্য ভাসমান বাটন -->
+    <!-- href="#" এর জায়গায় আপনার টেলিগ্রাম চ্যানেলের লিংক বসাতে পারেন -->
+    <a href="https://t.me/" target="_blank" class="telegram-btn">✈</a>
+
+</body>
+          </html>
